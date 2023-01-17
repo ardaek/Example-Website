@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: #191A19;
+}
+.links{
+
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links li a{
+transition: all 0.3s ease 0s;
+
+}
+.links li a:hover{
+    color: #5800FF;
+}
+ li, a{
+    font-weight: 500;
+     font-size: 16px;
+     text-decoration: none;
+     color: white;
+}
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 10%;
+ }
+header h2{
+    color: white;
+    display: inline-block;
+}
+.bord{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+
+}
+
+.kim{
+    padding: 70px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    display: none;
+}
+#img{
+    border: 3px solid white;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+
+}
+.img{
+margin-top: 70px;
+    margin-left: 400px;
+}
+.contents{
+    margin-top: 300px;
+color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contents1{
+    margin-top: 50px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contents2{
+    margin-top: 50px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contents3{
+    margin-top: 50px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contents4{
+    margin-top: 50px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+
+
+}
+.form{
+    text-align: center;
+    margin-top: 300px;
+
+}
+.form input{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 50px;
+}
+.form textarea{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+#button{
+
+
+    background-color: #e67e22;
+
+    border: none;
+
+    color: black;
+
+    padding: 15px 32px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+
+}
